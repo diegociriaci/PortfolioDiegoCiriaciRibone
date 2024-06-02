@@ -6,6 +6,19 @@
 header{
     border: 1px solid red;
     background-color: #ffffff;
+    font-family: 'Acuming Pro', Bold;
+    font-weight: bold;
+    font-size: 12px;
+    color: #122140;
+    text-align: center;
+}
+
+a{
+    text-decoration-line: none;
+}
+
+.imagenFlecha{
+    width: 12px;
 }
 
 main{
@@ -15,6 +28,26 @@ main{
 .hero{
     border: 1px solid blue;
     background-color: #efdfd2;
+}
+
+.nombreApellido{ 
+    color: #fc540d;
+    text-align: center;
+}
+
+.desarrolladorNombre{
+    color: #030301;
+    text-align: center;
+}
+
+.botonContratame{
+    background-color: #fc540d;
+    color: #fffdf4;
+    border: none;
+}
+
+.info{
+    text-align: right;
 }
 
 .servicios{
@@ -30,6 +63,7 @@ main{
 .works{
     border: 1px solid black;
     background-color: #f4eae1;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .reviews{
@@ -45,4 +79,8 @@ main{
 footer{
     border: 1px solid black;
     background-color: #fc5811;
+}
+
+img{
+    width: 40px;
 }
