@@ -1,4 +1,48 @@
-*{
+/* *{
     margin: 0;
     padding: 0; 
+} */
+
+header{
+    border: 1px solid red;
+    background-color: #ffffff;
+}
+
+main{
+    border: 1px solid yellowgreen;
+}
+
+.hero{
+    border: 1px solid blue;
+    background-color: #efdfd2;
+}
+
+.servicios{
+    border: 1px solid brown;
+    background-color: #ffffff;
+}
+
+.skills{
+    border: 1px solid black;
+    background-color: #efdfd2;
+}
+
+.works{
+    border: 1px solid black;
+    background-color: #f4eae1;
+}
+
+.reviews{
+    border: 1px solid black;
+    background-color: #ffffff;
+}
+
+.novedades{
+    border: 1px solid black;
+    background-color: #f4eae1;
+}
+
+footer{
+    border: 1px solid black;
+    background-color: #fc5811;
 }
