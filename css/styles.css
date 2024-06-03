@@ -99,6 +99,59 @@ main{
 
 /* Fin primer section */
 
+/* Inicio de servicios */
+.servicios {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #f5f5f5;
+    height: 100vh; /* Ocupa toda la altura visible de la pantalla */
+}
+
+.servicios-header {
+    align-self: flex-start; /* Alinea el encabezado en la esquina superior izquierda */
+    margin-bottom: 20px;
+    width: 100%; /* Asegura que ocupa el ancho completo */
+}
+
+.servicios-header h1 {
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+.servicios-descripcion {
+    align-self: flex-start; /* Alinea la descripción en la esquina superior izquierda */
+    margin-left: 20px; /* Ajusta según necesidad para alineación */
+    width: 40%; /* Ajusta el ancho del texto de descripción */
+    margin-bottom: 20px;
+}
+
+.servicios-lista {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Alinea los servicios hacia la derecha */
+    margin-top: 20px;
+    width: 100%;
+}
+
+.servicio-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Alinea cada item de servicio hacia la derecha */
+    width: 60%; /* Puedes ajustar esto según el espacio que desees usar */
+    margin-bottom: 20px;
+}
+
+.servicio-item p {
+    font-size: 1.2em;
+    margin-right: 20px; /* Espacio entre texto y imagen */
+}
+
+.servicio-item img {
+    width: 100px;
+    height: 100px;
+}
+/* Fin de servicios */
 
 .servicios{
     border: 1px solid brown;
