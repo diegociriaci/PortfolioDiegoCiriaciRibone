@@ -1,3 +1,4 @@
+/* Inicio del header */
 header{
     background-color: #ffffff;
     font-family: 'Acuming Pro', Bold;
@@ -6,11 +7,20 @@ header{
     color: #122140;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    padding: 0 20px; /* Ajusta según sea necesario */
+}
+
+.nav-centrado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1; /* Hace que el nav ocupe el espacio necesario para centrar los elementos */
+    gap: 10px; /* Espacio entre enlaces e imágenes */
 }
 
 header a{
-    margin: 10px;
+    margin: 0 10px;
 }
 
 a{
@@ -21,9 +31,15 @@ a{
     width: 12px;
 }
 
+.hablemos{
+    margin-left: auto;
+}
+
+
 main{
     border: 1px solid yellowgreen;
 }
+/* Fin del header */
 
 /* Inicio primer section */
 
