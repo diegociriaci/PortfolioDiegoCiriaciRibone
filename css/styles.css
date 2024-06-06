@@ -395,17 +395,64 @@ main{
     max-width: 80%; /* Limita el ancho máximo del texto */
     margin: 0 auto; /* Centra el texto horizontalmente */
 }
-
 /* Fin de novedades */
 
 
 /* Inicio del footer */
-footer{
+footer {
     border: 1px solid black;
     background-color: #fc5811;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color: white; /* Color de texto general */
+}
+
+.zona-izquierda h1{
+    margin: 0; /* Remueve márgenes para un mejor control */
+}
+
+.info-imagen {
+    display: flex;
+    align-items: center; /* Alinea verticalmente el icono con el texto */
+    margin-bottom: 10px; /* Espacio entre elementos */
+}
+
+.info-imagen img {
+    width: 24px; /* Tamaño de los iconos */
+    margin-right: 10px; /* Espacio entre el icono y el texto */
+}
+
+.zona-derecha {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end; /* Alinea los elementos a la derecha */
+    margin-bottom: 10px;
+}
+
+.zona-derecha .icono-flecha img {
+    margin-right: 10px;
+}
+
+.email {
+    margin-top: 10px;
+}
+
+.zona-abajo{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.zona-abajo p{
+    margin: 0 100px;
 }
 /* Fin del footer */
 
+.separador-blanco{
+    border-top: 1px solid #fff; /* Línea horizontal blanca */
+    margin: 20px 0; /* Margen entre la línea y los elementos adyacentes */
+}
 img{
     width: 40px;
 }
