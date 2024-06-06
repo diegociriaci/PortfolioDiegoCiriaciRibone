@@ -353,8 +353,51 @@ main{
 .novedades{
     border: 1px solid black;
     background-color: #f4eae1;
+    padding: 30px;
 }
+
+.novedades h1{
+    margin-bottom: 20px;
+}
+
+.contenedor-novedades{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.novedad{
+    display: inline-block; /* Cambiar a inline-block para que estén uno al lado del otro */
+    margin-right: 10px; /* Espacio entre cada contenedor */
+    margin-bottom: 20px; /* Espacio inferior entre cada fila */
+    width: calc(33.33% - 20px); /* Ancho para que quepan 3 por fila */
+    vertical-align: top; /* Alinea los contenedores en la parte superior */
+}
+
+.imagen-novedad{
+    width: 100%; /* Ancho de la imagen */
+    height: auto; /* Altura de la imagen */
+    overflow: hidden; /* Oculta cualquier parte de la imagen que se desborde del contenedor */
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen-novedad img{
+    width: 100px; /* La imagen ocupará todo el ancho del contenedor */
+    height: 100px; /* Altura automática para mantener la proporción */
+    object-fit: cover; /* Ajusta la imagen dentro del contenedor */
+}
+
+.novedad p{
+    text-align: left; /* Alinea el texto al centro */
+    max-width: 80%; /* Limita el ancho máximo del texto */
+    margin: 0 auto; /* Centra el texto horizontalmente */
+}
+
 /* Fin de novedades */
+
 
 /* Inicio del footer */
 footer{
