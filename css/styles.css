@@ -116,6 +116,7 @@ main{
 
 /* Inicio de servicios */
 .servicios {
+    border: 1px solid brown;
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -168,15 +169,73 @@ main{
 }
 /* Fin de servicios */
 
-.servicios{
-    border: 1px solid brown;
-    background-color: #ffffff;
-}
 
+/* Inicio de skills */
 .skills{
     border: 1px solid black;
     background-color: #efdfd2;
+    padding: 20px;
 }
+
+.contenedor-skills{
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.habilidades{
+    width: 50%; /* Ajusta el ancho según sea necesario */
+}
+
+.imagenes-skills{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 45%;
+    margin-top: 20px; /* Espacio entre el texto y los iconos */
+    gap: 10px; /* Espacio entre los cuadros */
+}
+
+.imagenes-skills img{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    flex: 1 1 30%; /* Ajusta el tamaño de los iconos para que quepan 3 por fila */
+}
+
+.imagenes-skills-caja{
+    background-color: #f4eae1;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(33.33% - 20px); /* Ajusta el tamaño para que quepan 3 por fila */
+    box-sizing: border-box;
+    text-align: center;
+    flex-direction: column;
+}
+
+.imagenes-skills-caja img{
+    width: 30px;
+    height: 30px;
+}
+
+.imagenes-skills-caja p{
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.experiencia{
+    width: 50%; /* Ajusta el ancho según sea necesario */
+}
+
+.experiencia p{
+    margin: 5px 0; /* Espacio entre las líneas de texto */
+    font-size: 16px;
+    color: #333;
+}
+/* Fin de skills */
+
 
 .works{
     border: 1px solid black;
