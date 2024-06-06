@@ -74,7 +74,7 @@ main{
     flex: 1;
 }
 
-.boton-contratame{
+.boton{
     background-color: #fc540d;
     color: #fffdf4;
     border: none;
@@ -237,11 +237,59 @@ main{
 /* Fin de skills */
 
 
+/* Inicio de trabajos */
 .works{
     border: 1px solid black;
     background-color: #f4eae1;
     font-family: 'Courier New', Courier, monospace;
+    position: relative;
 }
+
+.trabajos{
+    padding: 30px;
+}
+
+.imagenes-trabajos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Espacio entre las imágenes */
+}
+
+.imagenes-trabajos-caja{
+    background-size: cover;
+    background-position: center;
+    background-color: white;
+    padding: 10px; /* Espaciado interno del contenedor */
+    box-sizing: border-box; /* Incluir el padding en el tamaño del contenedor */   
+    width: calc(33.33% - 20px); /* Ancho para que quepan 3 por fila */
+    display: flex; /* Establecer como flexbox para alinear la imagen */
+    justify-content: center; /* Alinear la imagen horizontalmente en el centro */
+    align-items: center;
+    text-align: center;
+}
+
+.imagenes-trabajos-caja img{
+    width: 60px; /* Ajusta el tamaño de las imágenes según sea necesario */
+    height: auto;
+    object-fit: cover;
+}
+
+.boton-centrado{
+    background-color: #fc540d;
+    color: #fffdf4;
+    border: none;
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    display: block;    
+}
+
+/* Fin de trabajos */
+
 
 .reviews{
     border: 1px solid black;
