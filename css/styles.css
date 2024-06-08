@@ -2,7 +2,7 @@
 
 header{
     background-color: #ffffff;
-    font-family: 'Acuming Pro', Bold;
+    font-family: 'Helvetica';
     font-weight: bold;
     font-size: 12x;
     color: #122140;
@@ -24,11 +24,18 @@ header{
 
 header a{
     margin: 0 10px;
+    text-decoration-line: none;
+    color: #030301;
+    font-size: 12px;
 }
 
 a{
     text-decoration-line: none;
     color: #030301;
+    font-size: 12px;
+}
+
+header p{
     font-size: 12px;
 }
 
