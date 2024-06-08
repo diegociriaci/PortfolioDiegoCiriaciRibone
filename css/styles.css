@@ -1,22 +1,25 @@
 /* Inicio del header */
+
 header{
     background-color: #ffffff;
     font-family: 'Acuming Pro', Bold;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 12x;
     color: #122140;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 20px; /* Ajusta según sea necesario */
+    padding: 0 70px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .nav-centrado{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 1; /* Hace que el nav ocupe el espacio necesario para centrar los elementos */
-    gap: 10px; /* Espacio entre enlaces e imágenes */
+    flex: 1;
+    gap: 10px;
 }
 
 header a{
@@ -25,6 +28,8 @@ header a{
 
 a{
     text-decoration-line: none;
+    color: #030301;
+    font-size: 12px;
 }
 
 .imagen-flecha{
