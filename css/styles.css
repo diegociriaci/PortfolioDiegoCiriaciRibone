@@ -11,7 +11,7 @@ header{
     justify-content: space-between;
     padding: 0 70px;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: -30px;
 }
 
 .nav-centrado{
@@ -48,12 +48,12 @@ header p{
 
 /* Inicio primer section */
 .hero{
-    border: 1px solid blue;
     background-color: #efdfd2;
     margin-bottom: -60px;
 }
 
 .contenedor-datos{
+    border: 1px solid #efdfd2;
     margin-top: 80px;
 }
 
@@ -97,7 +97,6 @@ header p{
 }
 
 .mi-presentacion{
-    border: 1px solid black;
     flex: 1;
     margin-left: 90px;
     margin-top: 80px;
@@ -139,14 +138,14 @@ header p{
 }
 
 .foto-perfil{
-    border: 5px solid #fc540d;
+    outline: 2px solid #fc540d;
+    outline-offset: 5px;
     border-radius: 50%;
     width: 600px;
     height: 600px;
 }
 
 .contenedor-info{
-    border: #030301 1px solid;
     flex: 1;
     display: flex;
     flex-direction: column;
