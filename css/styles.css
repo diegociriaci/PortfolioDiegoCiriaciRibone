@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* Inicio del header */
 
 header{
@@ -11,7 +13,7 @@ header{
     justify-content: space-between;
     padding: 0 70px;
     margin-top: 30px;
-    margin-bottom: -30px;
+    margin-bottom: -50px;
 }
 
 .nav-centrado{
@@ -46,7 +48,7 @@ header p{
 /* Fin del header */
 
 
-/* Inicio primer section */
+/* Inicio del hero */
 .hero{
     background-color: #efdfd2;
     margin-bottom: -60px;
@@ -181,10 +183,10 @@ header p{
 }
 
 .contenedor-puntuacion{
-    width: 400px; /* Ajusta el ancho del contenedor */
-    height: 120px; /* Ajusta la altura del contenedor */
-    position: relative; /* Establece el posicionamiento relativo */
-    bottom: 180px; /* Mueve el contenedor 20px hacia arriba */
+    width: 400px;
+    height: 120px;
+    position: relative;
+    bottom: 180px;
     margin-left: 90px;
     display: flex;
     flex-direction: column;
@@ -193,14 +195,14 @@ header p{
 }
 
 .imagen-clutch img{
-    width: 90px; /* Ancho de la imagen */
-    height: auto; /* Altura automática para mantener la proporción */
+    width: 90px;
+    height: auto;
     margin-bottom: -25px;
 }
 
 .imagen-estrella img{
-    width: 22px; /* Ancho de la imagen */
-    height: auto; /* Altura automática para mantener la proporción */
+    width: 22px;
+    height: auto;
     margin-bottom: 5px;
 }
 
@@ -213,112 +215,161 @@ header p{
     font-family: Helvetica;
     font-size: 15px;
 }
-/* Fin primer section */
+/* Fin del hero */
 
 
 /* Inicio de servicios */
-.servicios {
-    border: 1px solid brown;
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
+.servicios{
     background-color: #f5f5f5;
-    height: 100vh; /* Ocupa toda la altura visible de la pantalla */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: auto;
 }
 
-.servicios-header {
-    align-self: flex-start; /* Alinea el encabezado en la esquina superior izquierda */
+.servicios-header{
+    align-self: flex-start;
     margin-bottom: 20px;
-    width: 100%; /* Asegura que ocupa el ancho completo */
+    width: 30%;
+    margin-left: 90px;
+    margin-top: 30px;
 }
 
-.servicios-header h1 {
+.servicios-header h1{
     margin-bottom: 10px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: bold;
     font-size: 2em;
 }
 
-.servicios-descripcion {
-    align-self: flex-start; /* Alinea la descripción en la esquina superior izquierda */
-    margin-left: 20px; /* Ajusta según necesidad para alineación */
-    width: 40%; /* Ajusta el ancho del texto de descripción */
+.servicios-descripcion{
+    align-self: flex-start;
+    margin-left: 20px;
+    width: 40%;
     margin-bottom: 20px;
+    color: #87878c;
+    font-family: Helvetica;
+    font-size: 18px;
 }
 
-.servicios-lista {
+.servicios-lista{
     display: flex;
     flex-direction: column;
-    align-items: flex-end; /* Alinea los servicios hacia la derecha */
-    margin-top: 20px;
-    width: 100%;
+    align-items:flex-start;
+    width: 50%;
+    height: 50%; 
+    margin-left: auto;
+    margin-top: 50px;
 }
 
-.servicio-item {
+.servicio-item{
     display: flex;
     align-items: center;
-    justify-content: flex-end; /* Alinea cada item de servicio hacia la derecha */
-    width: 60%; /* Puedes ajustar esto según el espacio que desees usar */
+    justify-content: space-between;
+    width: 60%;
     margin-bottom: 20px;
-}
-
-.servicio-item p {
     font-size: 1.2em;
-    margin-right: 20px; /* Espacio entre texto y imagen */
+    margin-right: 20px;
 }
 
-.servicio-item img {
-    width: 100px;
-    height: 100px;
+.num{
+    color: #030301;
+    text-align: center;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.nombre-servicio{
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.boton-servicio{
+    border: transparent;
+    background-color: #fc540d;
+    border-radius: 50%;
+}
+
+.servicio-item img{
+    width: 50px;
+    height: 50px;
 }
 /* Fin de servicios */
 
 
 /* Inicio de skills */
 .skills{
-    border: 1px solid black;
     background-color: #efdfd2;
+    display: flex;
+    justify-content: space-between;
     padding: 20px;
 }
 
 .contenedor-skills{
     display: flex;
-    /* justify-content: space-between; */
+    flex-direction: column;
+    width: 100%;
+}
+
+.contenedor-habi-exp{
+    margin-left: 60px;
+    width: 40%;
+    margin-bottom: 20px;
+}
+
+.contenedor-habi-exp h1{
+    margin-bottom: 10px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.contenedor-habi-exp p{
+    color: #87878c;
+    font-family: Helvetica;
+    font-size: 18px;
 }
 
 .habilidades{
-    width: 50%; /* Ajusta el ancho según sea necesario */
+    margin-left: 60px;
+    width: 48%;
 }
 
 .imagenes-skills{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    width: 45%;
-    margin-top: 20px; /* Espacio entre el texto y los iconos */
-    gap: 10px; /* Espacio entre los cuadros */
+    width: 100%;
+    margin-top: 20px;
+    gap: 10px;
 }
 
 .imagenes-skills img{
     width: 40px;
     height: 40px;
     margin: 10px;
-    flex: 1 1 30%; /* Ajusta el tamaño de los iconos para que quepan 3 por fila */
+    flex: 1 1 30%;
 }
 
-.imagenes-skills-caja{
+.imagenes-skills-caja{  
     background-color: #f4eae1;
     padding: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: calc(33.33% - 20px); /* Ajusta el tamaño para que quepan 3 por fila */
     box-sizing: border-box;
     text-align: center;
     flex-direction: column;
+    flex: 0 0 calc(33.33% - 30px);
 }
 
 .imagenes-skills-caja img{
-    width: 30px;
-    height: 30px;
+    width: 100%;
+    height: auto;
+    margin: 0;
 }
 
 .imagenes-skills-caja p{
@@ -327,14 +378,53 @@ header p{
     color: #333;
 }
 
-.experiencia{
-    width: 50%; /* Ajusta el ancho según sea necesario */
+.experiencia-lista{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    width: 90%;
+    height: 50%; 
+    margin-left: auto;
+    margin-top: 50px;
+    margin-right: 300px;
 }
 
-.experiencia p{
-    margin: 5px 0; /* Espacio entre las líneas de texto */
-    font-size: 16px;
-    color: #333;
+.experiencia-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    font-size: 1.2em;
+}
+
+.fechas-contenedor{
+    border: 1px solid black;
+    background-color: #f5f5f5;
+    border-radius: 25px;
+}
+
+.fechas{
+    color: #030301;
+    text-align: center;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.ocupacion{
+    color: #030301;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.plataforma{
+    color: #030301;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 15px;
 }
 /* Fin de skills */
 
@@ -349,6 +439,7 @@ header p{
 
 .trabajos{
     padding: 30px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .imagenes-trabajos{
