@@ -245,7 +245,7 @@ header p{
 .servicios-descripcion{
     align-self: flex-start;
     margin-left: 20px;
-    width: 40%;
+    width: 100%;
     margin-bottom: 20px;
     color: #87878c;
     font-family: Helvetica;
@@ -265,11 +265,13 @@ header p{
 .servicio-item{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: start;
     width: 60%;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     font-size: 1.2em;
     margin-right: 20px;
+    padding-right: 70px;
+    padding-bottom: 10px;
 }
 
 .num{
@@ -285,13 +287,54 @@ header p{
     font-family: Arial;
     font-weight: bold;
     font-size: 25px;
+    transform: translate(90px);
 }
 
-.boton-servicio{
+.boton-servicio-uno{
     border: transparent;
     background-color: #fc540d;
     border-radius: 50%;
     cursor: pointer;
+    transform: translate(362px);
+}
+
+.boton-servicio-dos{
+    border: transparent;
+    background-color: #fc540d;
+    border-radius: 50%;
+    cursor: pointer;
+    transform: translate(187px);
+}
+
+.boton-servicio-tres{
+    border: transparent;
+    background-color: #fc540d;
+    border-radius: 50%;
+    cursor: pointer;
+    transform: translate(145px);
+}
+
+.texto-explorar-uno{
+    transform: translate(305px,40px);
+    font-family: "Noto Sans", sans-serif;
+    font-weight: bold;
+    font-size: 12px
+
+}
+
+.texto-explorar-dos{
+    transform: translate(133px,40px);
+    font-family: "Noto Sans", sans-serif;
+    font-weight: bold;
+    font-size: 12px
+
+}
+
+.texto-explorar-tres{
+    transform: translate(90px,40px);
+    font-family: "Noto Sans", sans-serif;
+    font-weight: bold;
+    font-size: 12px
 }
 
 .servicio-item img{
@@ -623,7 +666,6 @@ header p{
 
 /* Inicio del footer */
 footer{
-    border: 1px solid black;
     background-color: #fc5811;
     display: flex;
     flex-direction: column;
