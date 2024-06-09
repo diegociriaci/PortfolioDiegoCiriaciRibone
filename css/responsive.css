@@ -1,0 +1,225 @@
+/* Medidas extandar */
+/* Moviles pequeños */
+@media (max-width: 320px){
+    header {
+      flex-direction: column;
+      padding: 0 20px;
+    }
+    
+    .nav-centrado{
+      flex-direction: column;
+      gap: 5px;
+    }
+  
+    .contenedor-datos{
+      margin-top: 20px;
+    }
+  
+    .nombre-apellido, .desarrollador-nombre{
+      font-size: 24px;
+    }
+  
+    .foto-perfil{
+      width: 100px;
+      height: 100px;
+    }
+  
+    .contenedor-presentacion{
+      flex-direction: column;
+      align-items: center;
+      margin: 20px;
+    }
+  
+    .mi-presentacion p{
+      font-size: 14px;
+    }
+  }
+
+/* Moviles normales */
+@media (max-width: 480px){
+    header {
+      flex-direction: column;
+      padding: 0 30px;
+    }
+    
+    .nav-centrado{
+      flex-direction: column;
+      gap: 8px;
+    }
+  
+    .nombre-apellido, .desarrollador-nombre{
+      font-size: 28px;
+    }
+  
+    .foto-perfil{
+      width: 150px;
+      height: 150px;
+    }
+  
+    .contenedor-presentacion{
+      flex-direction: column;
+      align-items: center;
+      margin: 30px;
+    }
+  
+    .mi-presentacion p{
+      font-size: 16px;
+    }
+  }
+
+/* Tablets y modo retrato */
+@media (max-width: 768px){
+    header {
+      padding: 0 40px;
+    }
+    
+    .nav-centrado{
+      gap: 10px;
+    }
+  
+    .nombre-apellido, .desarrollador-nombre{
+      font-size: 32px;
+    }
+  
+    .foto-perfil{
+      width: 200px;
+      height: 200px;
+    }
+  
+    .contenedor-presentacion{
+      flex-direction: column;
+      align-items: center;
+      margin: 40px;
+    }
+  
+    .mi-presentacion p{
+      font-size: 18px;
+    }
+  }
+
+/* Tablets, modo retrato y moviles mas grandes*/
+@media (max-width: 1024px){
+    header {
+      padding: 0 50px;
+    }
+  
+    .nav-centrado{
+      gap: 12px;
+    }
+  
+    .nombre-apellido, .desarrollador-nombre{
+      font-size: 36px;
+    }
+  
+    .foto-perfil{
+      width: 250px;
+      height: 250px;
+    }
+  
+    .contenedor-presentacion{
+      flex-direction: column;
+      align-items: center;
+      margin: 50px;
+    }
+  
+    .mi-presentacion p{
+      font-size: 20px;
+    }
+  }
+
+/* Modo paisaje*/
+@media (max-width: 1280px){
+    header{
+      padding: 0 60px;
+    }
+  
+    .nav-centrado{
+      gap: 15px;
+    }
+  
+    .nombre-apellido, .desarrollador-nombre{
+      font-size: 40px;
+    }
+  
+    .foto-perfil{
+      width: 300px;
+      height: 300px;
+    }
+  
+    .contenedor-presentacion{
+      flex-direction: column;
+      align-items: center;
+      margin: 60px;
+    }
+  
+    .mi-presentacion p{
+      font-size: 22px;
+    }
+  }
+  
+
+COMENTADO POR QUE AL NO TENER UNA PANTALLA DE ESE TAMAÑO NO ME DEJABA HACER PRUEBAS, PERO CREO QUE FUNCIONARIA
+/* Computadoras y tablets */
+/* @media (max-width: 1440px){
+    header {
+      padding: 0 70px;
+    }
+  
+    .nav-centrado{
+      gap: 20px;
+    }
+  
+    .nombre-apellido, .desarrollador-nombre{
+      font-size: 44px;
+    }
+  
+    .foto-perfil{
+      width: 350px;
+      height: 350px;
+    }
+  
+    .contenedor-presentacion{
+      flex-direction: column;
+      align-items: center;
+      margin: 70px;
+    }
+  
+    .mi-presentacion p{
+      font-size: 24px;
+    }
+  }
+  
+  @media (max-width: 1920px){
+    header {
+      padding: 0 80px;
+    }
+  
+    .nav-centrado{
+      gap: 25px;
+    }
+  
+    .nombre-apellido, .desarrollador-nombre{
+      font-size: 48px;
+    }
+  
+    .foto-perfil{
+      width: 400px;
+      height: 400px;
+    }
+  
+    .contenedor-presentacion{
+      flex-direction: column;
+      align-items: center;
+      margin: 80px;
+    }
+  
+    .mi-presentacion p{
+      font-size: 26px;
+    }
+  } */
+  
+
+  
+
+
+

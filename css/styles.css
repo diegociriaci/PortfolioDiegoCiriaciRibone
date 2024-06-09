@@ -534,7 +534,7 @@ header p{
 }
 
 .imagenes-trabajos-caja img{
-    width: 100%; /* Ajusta el tamaño de las imágenes según sea necesario */
+    width: 100%;
     height: auto;
     object-fit: cover;
 }
