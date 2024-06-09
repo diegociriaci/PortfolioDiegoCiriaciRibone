@@ -504,7 +504,6 @@ header p{
 .imagenes-trabajos-caja{
     background-size: cover;
     background-position: center;
-    background-color: white;
     padding: 10px;
     box-sizing: border-box;  
     width: calc(33.33% - 20px);
@@ -515,7 +514,7 @@ header p{
 }
 
 .imagenes-trabajos-caja img{
-    width: 60px; /* Ajusta el tamaño de las imágenes según sea necesario */
+    width: 100%; /* Ajusta el tamaño de las imágenes según sea necesario */
     height: auto;
     object-fit: cover;
 }
@@ -637,9 +636,9 @@ header p{
 }
 
 .imagen-novedad{
-    width: 70%; /* Ancho de la imagen */
-    height: 70%; /* Altura de la imagen */
-    overflow: hidden; /* Oculta cualquier parte de la imagen que se desborde del contenedor */
+    width: 70%;
+    height: 70%;
+    overflow: hidden;
     margin-bottom: 10px;
     margin-left: 59px;
     display: flex;
@@ -648,15 +647,15 @@ header p{
 }
 
 .imagen-novedad img{
-    width: 100%; /* La imagen ocupará todo el ancho del contenedor */
-    height: 100%; /* Altura automática para mantener la proporción */
-    object-fit: cover; /* Ajusta la imagen dentro del contenedor */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .novedad p{
-    text-align: left; /* Alinea el texto al centro */
-    max-width: 80%; /* Limita el ancho máximo del texto */
-    margin: 0 auto; /* Centra el texto horizontalmente */
+    text-align: left;
+    max-width: 80%;
+    margin: 0 auto;
     font-family: 'Helvetica';
     font-size: 13px;
     font-weight: bold;
