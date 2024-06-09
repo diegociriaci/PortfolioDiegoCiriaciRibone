@@ -263,8 +263,6 @@ header p{
 }
 
 .servicio-item{
-    border: blue 1px solid;
-
     display: flex;
     align-items: center;
     justify-content: flex-start;
