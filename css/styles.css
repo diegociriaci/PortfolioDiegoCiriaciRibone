@@ -87,7 +87,7 @@ header p{
 
 .imagen-flecha{
     width: 12px;
-    transform: translate(-10px);
+    transform: translate(-10px, 2px);
 }
 
 .contenedor-presentacion{
@@ -126,8 +126,8 @@ header p{
 }
 
 .imagen-flecha-boton{
-    width: 12px;
-    transform: translate(5px);
+    width: 15px;
+    transform: translate(5px, 3px);
 }
 
 .foto-perfil-flexbox{
@@ -141,7 +141,7 @@ header p{
 
 .foto-perfil{
     outline: 2px solid #fc540d;
-    outline-offset: 5px;
+    outline-offset: 7px;
     border-radius: 50%;
     width: 600px;
     height: 600px;
@@ -491,9 +491,10 @@ header p{
 }
 
 .imagen-flecha-boton-trabajos{
-    width: 12px;
-    transform: translate(-5px);
+    width: 15px;
+    transform: translate(-5px, 3px);
 }
+
 /* Fin de trabajos */
 
 /* Inicio de reviews */
@@ -593,18 +594,19 @@ header p{
 }
 
 .imagen-novedad{
-    width: 100%; /* Ancho de la imagen */
-    height: auto; /* Altura de la imagen */
+    width: 70%; /* Ancho de la imagen */
+    height: 70%; /* Altura de la imagen */
     overflow: hidden; /* Oculta cualquier parte de la imagen que se desborde del contenedor */
     margin-bottom: 10px;
+    margin-left: 59px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .imagen-novedad img{
-    width: 100px; /* La imagen ocupará todo el ancho del contenedor */
-    height: 100px; /* Altura automática para mantener la proporción */
+    width: 100%; /* La imagen ocupará todo el ancho del contenedor */
+    height: 100%; /* Altura automática para mantener la proporción */
     object-fit: cover; /* Ajusta la imagen dentro del contenedor */
 }
 
@@ -613,7 +615,8 @@ header p{
     max-width: 80%; /* Limita el ancho máximo del texto */
     margin: 0 auto; /* Centra el texto horizontalmente */
     font-family: 'Helvetica';
-    font-size: 12x;
+    font-size: 13px;
+    font-weight: bold;
 }
 /* Fin de novedades */
 
@@ -690,12 +693,6 @@ footer{
     margin-left: 2px;
 }
 
-.info-imagen img{
-    width: 24px;
-    margin-right: 10px;
-    border-radius: 50%;
-}
-
 .saludo{
     display: flex;
     justify-content: center;
@@ -704,7 +701,8 @@ footer{
     height: auto;
     margin-left: auto;
     flex: 1;
-    padding-top: 80px;
+    padding-top: 45px;
+    padding-bottom: 70px;
 }
 
 .saludo div{
@@ -729,6 +727,11 @@ footer{
     cursor: pointer;
 }
 
+.boton-saludo img{
+    width: 150px;
+    height: 150px;
+}
+
 .saludo p{
     font-family: "Noto Sans", sans-serif;
     font-weight: bold;
@@ -736,21 +739,38 @@ footer{
 }
 
 .pie-pagina{
-    
     display: flex;
     justify-content: space-between;
     align-items:center;
 }
 
-.zona-abajo p{
+.pie-pagina p{
     margin: 0 100px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.pie-pagina img{
+    width: 12px;
+    height: auto;
 }
 /* Fin del footer */
 
-.separador-blanco{
-    border-top: 1px solid #fff; /* Línea horizontal blanca */
-    margin: 20px 0; /* Margen entre la línea y los elementos adyacentes */
+.separador-blanco-footer{
+    border-top: 2px solid #fff;
+    margin-left: 60px;
+    margin-right: -70px;
+    margin-bottom: 15px;
 }
+
+.separador-blanco-final{
+    border-top: 2px solid #fff;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 10px;
+}
+
 img{
     width: 40px;
 }
