@@ -432,7 +432,6 @@ header p{
 
 /* Inicio de trabajos */
 .works{
-    border: 1px solid black;
     background-color: #f4eae1;
     font-family: 'Courier New', Courier, monospace;
     position: relative;
@@ -499,7 +498,6 @@ header p{
 
 /* Inicio de reviews */
 .reviews{
-    border: 1px solid black;
     background-color: #ffffff;
     padding: 20px;
     display: flex;
@@ -576,6 +574,10 @@ header p{
 
 .novedades h1{
     margin-bottom: 20px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    margin-left: 47px;
 }
 
 .contenedor-novedades{
@@ -585,11 +587,10 @@ header p{
 }
 
 .novedad{
-    display: inline-block; /* Cambiar a inline-block para que estén uno al lado del otro */
-    margin-right: 10px; /* Espacio entre cada contenedor */
-    margin-bottom: 20px; /* Espacio inferior entre cada fila */
-    width: calc(33.33% - 20px); /* Ancho para que quepan 3 por fila */
-    vertical-align: top; /* Alinea los contenedores en la parte superior */
+    display: inline-block;
+    margin-bottom: 20px;
+    width: calc(33.33% - 20px);
+    vertical-align: top;
 }
 
 .imagen-novedad{
@@ -612,6 +613,8 @@ header p{
     text-align: left; /* Alinea el texto al centro */
     max-width: 80%; /* Limita el ancho máximo del texto */
     margin: 0 auto; /* Centra el texto horizontalmente */
+    font-family: 'Helvetica';
+    font-size: 12x;
 }
 /* Fin de novedades */
 
