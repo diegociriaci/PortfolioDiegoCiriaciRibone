@@ -567,7 +567,6 @@ header p{
 
 /* Inicio de novedades */
 .novedades{
-    border: 1px solid black;
     background-color: #f4eae1;
     padding: 30px;
 }
@@ -620,48 +619,126 @@ header p{
 
 
 /* Inicio del footer */
-footer {
+footer{
     border: 1px solid black;
     background-color: #fc5811;
     display: flex;
     flex-direction: column;
     padding: 20px;
-    color: white; /* Color de texto general */
+    color: white;
 }
 
-.zona-izquierda h1{
-    margin: 0; /* Remueve márgenes para un mejor control */
-}
-
-.info-imagen {
+.contenedor-footer{
     display: flex;
-    align-items: center; /* Alinea verticalmente el icono con el texto */
-    margin-bottom: 10px; /* Espacio entre elementos */
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
-.info-imagen img {
-    width: 24px; /* Tamaño de los iconos */
-    margin-right: 10px; /* Espacio entre el icono y el texto */
+.mensaje h1{
+    margin-left: 60px;
+    margin-top: 30px;
+    margin-bottom: 40px;
 }
 
-.zona-derecha {
+.info-contacto{
     display: flex;
     flex-direction: column;
-    align-items:flex-end; /* Alinea los elementos a la derecha */
+    align-items: flex-start;
     margin-bottom: 10px;
+    margin-left: 60px;
+    width: 30%;
 }
 
-.zona-derecha .icono-flecha img {
+.contenedor-contacto{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 50%;
+    height: auto;
+}
+
+.icono-mensaje-ubicacion{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.info-email-ubicacion{
+    text-align: start;
+    white-space: nowrap;
+}
+
+.info-contacto-titulo{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.info-contacto-subtitulo{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 0;
+}
+
+.info-mensaje-ubicacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin-left: 2px;
+}
+
+.info-imagen img{
+    width: 24px;
     margin-right: 10px;
+    border-radius: 50%;
 }
 
-.email {
-    margin-top: 10px;
-}
-
-.zona-abajo{
+.saludo{
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    height: auto;
+    margin-left: auto;
+    flex: 1;
+    padding-top: 80px;
+}
+
+.saludo div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.saludo p{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    justify-content: center;
+}
+
+.boton-saludo{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.saludo p{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.pie-pagina{
+    
+    display: flex;
+    justify-content: space-between;
     align-items:center;
 }
 
