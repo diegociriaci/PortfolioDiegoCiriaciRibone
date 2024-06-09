@@ -444,8 +444,6 @@ header p{
 }
 
 .experiencia-item-tres{
-    border: #030301 1px solid;
-    
     display: flex;
     align-items: center;
     justify-content: space-evenly;
