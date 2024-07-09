@@ -48,11 +48,11 @@ header a:hover::after, .hablemos:hover::after{
     transform: scaleX(1);
 }
 
-/* a{
+a{
     text-decoration-line: none;
     color: #030301;
     font-size: 12px;
-} */
+}
 
 header p{
     font-size: 12px;
