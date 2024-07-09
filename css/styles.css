@@ -65,6 +65,7 @@ header p{
     font-family: Arial;
     font-size: 40px;
     line-height: 20px;
+    margin-top: 65px;   
 }
 
 .desarrollador-nombre{
@@ -123,6 +124,13 @@ header p{
     font-size: 15px;
     font-family: 'Helvetica';
     font-weight: bold;
+    transition: transform 0.5s ease, box-shadow 0.5s ease, background-color 0.5s ease;
+}
+
+.boton-contratame:hover{
+    background-color: #fffdf4;
+    color: #fc540d;
+    border: 2px solid #fc540d;
 }
 
 .imagen-flecha-boton{
@@ -302,6 +310,13 @@ header p{
     border-radius: 50%;
     cursor: pointer;
     margin-bottom: 1px;
+    transition: background-color 0.5s ease, color 0.5s ease, border 0.5s ease;
+}
+
+.boton-servicio:hover{
+    background-color: #fffdf4;
+    color: #fc540d;
+    border: 2px solid #fc540d;
 }
 
 .texto-explorar{
@@ -523,6 +538,13 @@ header p{
     cursor: pointer;
     font-family: 'Helvetica';
     font-weight: bold;
+    transition: transform 0.5s ease, box-shadow 0.5s ease, background-color 0.5s ease;
+}
+
+.boton-trabajos:hover{
+    background-color: #fffdf4;
+    color: #fc540d;
+    border: 2px solid #fc540d;
 }
 
 .imagen-flecha-boton-trabajos{
@@ -759,11 +781,21 @@ footer{
     border: none;
     margin-bottom: 20px;
     cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
 }
 
 .boton-saludo img{
     width: 150px;
     height: 150px;
+}
+
+.boton-saludo:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.boton-saludo:hover img {
+    transform: scale(1.2);
 }
 
 .saludo p{
@@ -808,3 +840,4 @@ footer{
 img{
     width: 40px;
 }
+
