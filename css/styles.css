@@ -257,6 +257,7 @@ header p{
     flex-direction: row;
     justify-content: space-between;
     height: auto;
+    padding: 50px 90px; /* Ajuste de espaciado interno */
 }
 
 .servicios-header{
@@ -265,6 +266,7 @@ header p{
     width: 30%;
     margin-left: 90px;
     margin-top: 30px;
+    border: 1px solid black;
 }
 
 .servicios-header h1{
@@ -282,22 +284,23 @@ header p{
     color: #87878c;
     font-family: Helvetica;
     font-size: 18px;
+    position: relative;
 }
 
 .servicios-lista{
     display: flex;
     flex-direction: column;
-    align-items:flex-start;
-    width: 50%;
-    height: 50%; 
+    align-items: flex-start;
     margin-left: auto;
-    margin-top: 50px;
+    width: 50%; /* Ajusta el ancho según sea necesario */
+
+    border: 1px solid red;
 }
 
 .servicio-item{
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-between;
     width: 80%;
     margin-bottom: 30px;
     font-size: 1.2em;
@@ -317,15 +320,17 @@ header p{
     font-family: Arial;
     font-weight: bold;
     font-size: 25px;
-    flex: 1;
     text-align: start;
-    margin-left: 100px;
+    margin-left: 18%; /* Ajusta según sea necesario */
+    flex: 1;
 }
+
 
 .boton-info{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: auto;
 }
 
 .boton-servicio{
@@ -353,6 +358,15 @@ header p{
     width: 50px;
     height: 50px;
 }
+
+.servicios-lista hr{
+    border: 0;
+    height: 2px;
+    background-color: #000;
+    margin: 20px 0;
+    width: 100%;
+}
+
 /* Fin de servicios */
 
 
@@ -502,6 +516,7 @@ header p{
     font-weight: bold;
     font-size: 15px;
 }
+
 /* Fin de skills */
 
 
