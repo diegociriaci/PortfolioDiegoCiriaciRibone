@@ -594,15 +594,24 @@ header p{
 /* Inicio de reviews */
 .reviews{
     background-color: #ffffff;
-    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;    
+    flex-direction: row;
+    justify-content: space-between;
+    height: auto;
+    padding: 50px 90px;    
 }
 
-.reviews h1 {
+.reviews-header{
+    align-self: flex-start;
+    margin-bottom: 20px;
     width: 100%;
-    margin-left: 60px;
+    margin-left: 90px;
+    margin-top: 30px;
+}
+
+.reviews-header h1{
     margin-bottom: 40px;
     font-family: "Noto Sans", sans-serif;
     font-weight: bold;
@@ -610,20 +619,24 @@ header p{
 }
 
 .opinion{
-    width: calc(33.33% - 20px);
-    margin: 30px;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
 .contenedor-opiniones{
-    display: flex;
-    align-items: center;
     margin-bottom: 10px;
-    width: 100%;
-    height: auto;
-    margin-left: -230px;
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    box-sizing: border-box;  
+    width: calc(33.33% - 20px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .imagen-perfil{
