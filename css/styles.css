@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* Inicio del header */
-
 header{
     background-color: #ffffff;
     font-family: 'Helvetica';
@@ -68,7 +67,6 @@ header p{
 .hablemos:hover::after {
     transform: scaleX(1);
 }
-
 /* Fin del header */
 
 
@@ -257,7 +255,7 @@ header p{
     flex-direction: row;
     justify-content: space-between;
     height: auto;
-    padding: 50px 90px; /* Ajuste de espaciado interno */
+    padding: 50px 90px;
 }
 
 .servicios-header{
@@ -291,7 +289,7 @@ header p{
     flex-direction: column;
     align-items: flex-start;
     margin-left: auto;
-    width: 50%; /* Ajusta el ancho según sea necesario */
+    width: 50%;
 }
 
 .servicio-item{
@@ -318,7 +316,7 @@ header p{
     font-weight: bold;
     font-size: 25px;
     text-align: start;
-    margin-left: 18%; /* Ajusta según sea necesario */
+    margin-left: 18%;
     flex: 1;
 }
 
@@ -362,7 +360,6 @@ header p{
     margin: 20px 0;
     width: 100%;
 }
-
 /* Fin de servicios */
 
 
@@ -373,7 +370,7 @@ header p{
     flex-direction: row;
     justify-content: space-between;
     height: auto;
-    padding: 50px 90px; /* Ajuste de espaciado interno */
+    padding: 50px 90px;
 }
 
 .skills-header{
@@ -403,10 +400,8 @@ header p{
 }
 
 .habilidades{
-    width: 100%; /* con esto modifico el tamaño de las cajas de skills*/
+    width: 100%;
     margin-top: 60px;
-
-    border: 1px solid blue;   
 }
 
 .habilidades h2{
@@ -462,9 +457,7 @@ header p{
     flex-direction: column;
     align-items: flex-start;
     margin-left: auto;
-    width: 50%; /* Ajusta el ancho según sea necesario */
-
-    border: 1px solid red;
+    width: 50%;
 }
 
 .experiencia-item{
@@ -491,27 +484,14 @@ header p{
     font-weight: bold;
 }
 
-
-/* .ocupacion{
+.ocupacion{
     color: #030301;
     font-family: Arial;
     font-weight: bold;
     font-size: 18px;
-}
-
-.ocupacion-tres{
-    color: #030301;
-    font-family: Arial;
-    font-weight: bold;
-    font-size: 18px;
-    transform: translate(-14px);
-} */
-
-.ocupacion, .ocupacion-tres {
-    color: #030301;
-    font-family: Arial;
-    font-weight: bold;
-    font-size: 18px;
+    text-align: start;
+    margin-left: 18%;
+    flex: 1;
 }
 
 .plataforma{
@@ -528,7 +508,6 @@ header p{
     margin: 20px 0;
     width: 100%;
 }
-
 /* Fin de skills */
 
 
