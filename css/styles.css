@@ -266,7 +266,6 @@ header p{
     width: 30%;
     margin-left: 90px;
     margin-top: 30px;
-    border: 1px solid black;
 }
 
 .servicios-header h1{
@@ -293,8 +292,6 @@ header p{
     align-items: flex-start;
     margin-left: auto;
     width: 50%; /* Ajusta el ancho según sea necesario */
-
-    border: 1px solid red;
 }
 
 .servicio-item{
@@ -324,7 +321,6 @@ header p{
     margin-left: 18%; /* Ajusta según sea necesario */
     flex: 1;
 }
-
 
 .boton-info{
     display: flex;
@@ -374,38 +370,41 @@ header p{
 .skills{
     background-color: #efdfd2;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    padding: 20px;
+    height: auto;
+    padding: 50px 90px; /* Ajuste de espaciado interno */
 }
 
-.contenedor-skills{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-
-.contenedor-habi-exp{
-    margin-left: 60px;
-    width: 40%;
+.skills-header{
+    align-self: flex-start;
     margin-bottom: 20px;
+    width: 30%;
+    margin-left: 90px;
+    margin-top: 30px;
 }
 
-.contenedor-habi-exp h1{
+.skills-header h1{
     margin-bottom: 10px;
     font-family: "Noto Sans", sans-serif;
     font-weight: bold;
     font-size: 2em;
 }
 
-.contenedor-habi-exp p{
+.skills-descripcion{
+    align-self: flex-start;
+    margin-left: 20px;
+    width: 100%;
+    margin-bottom: 20px;
     color: #87878c;
     font-family: Helvetica;
     font-size: 18px;
+    position: relative;
 }
 
 .habilidades{
-    margin-left: 60px;
-    width: 48%;
+    margin-left: 20px;
+    width: 100%; /* con esto modifico el tamaño de las cajas de skills*/
 }
 
 .imagenes-skills{
@@ -451,33 +450,21 @@ header p{
 .experiencia-lista{
     display: flex;
     flex-direction: column;
-    align-items:flex-start;
-    width: 90%;
-    height: 50%; 
+    align-items: flex-start;
     margin-left: auto;
-    margin-top: 50px;
-    margin-right: 300px;
+    width: 50%; /* Ajusta el ancho según sea necesario */
+
+    border: 1px solid red;
 }
 
 .experiencia-item{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    width: 100%;
-    margin-bottom: 20px;
-    margin-top: 50px;
+    justify-content: space-between;
+    width: 80%;
+    margin-bottom: 30px;
     font-size: 1.2em;
-}
-
-.experiencia-item-tres{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 100%;
-    margin-bottom: 20px;
-    margin-top: 50px;
-    font-size: 1.2em;
-    transform: translate(-15px);
+    padding: 10px 0;
 }
 
 .fechas-contenedor{
@@ -495,7 +482,7 @@ header p{
 }
 
 
-.ocupacion{
+/* .ocupacion{
     color: #030301;
     font-family: Arial;
     font-weight: bold;
@@ -508,6 +495,13 @@ header p{
     font-weight: bold;
     font-size: 18px;
     transform: translate(-14px);
+} */
+
+.ocupacion, .ocupacion-tres {
+    color: #030301;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 .plataforma{
@@ -516,6 +510,8 @@ header p{
     font-weight: bold;
     font-size: 15px;
 }
+
+
 
 /* Fin de skills */
 
