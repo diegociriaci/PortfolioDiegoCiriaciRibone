@@ -763,15 +763,20 @@ footer{
 }
 
 .contenedor-footer{
+    position: relative;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
+    height: auto;
+    padding: 50px 90px;
 }
 
-.mensaje h1{
+.mensaje-header h1{
     margin-left: 60px;
-    margin-top: 30px;
     margin-bottom: 40px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: bold;
+    font-size: 2em;
 }
 
 .info-contacto{
