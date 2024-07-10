@@ -2,7 +2,6 @@
 
 /* Inicio del header */
 header{
-    background-color: #ffffff;
     font-family: 'Helvetica';
     font-weight: bold;
     font-size: 12px;
@@ -11,27 +10,19 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 0 70px;
-    margin-top: 30px;
+    margin-top: 0px;
     margin-bottom: -50px;
 }
 
-.nav-centrado{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
-    gap: 10px;
-}
-
-header a{
-    margin: 0 10px;
-    text-decoration-line: none;
+.nav-link{
     color: #030301;
     font-size: 12px;
+    text-decoration: none;
     position: relative;
+    margin: 0 10px;
 }
 
-header a::after, .hablemos::after{
+.nav-link::after{
     content: '';
     position: absolute;
     width: 100%;
@@ -43,29 +34,17 @@ header a::after, .hablemos::after{
     transition: transform 0.3s ease;
 }
 
-header a:hover::after, .hablemos:hover::after{
+.nav-link:hover::after{
     transform: scaleX(1);
 }
 
-a{
-    text-decoration-line: none;
-    color: #030301;
-    font-size: 12px;
-}
-
-header p{
-    font-size: 12px;
-}
-
 .hablemos{
+    font-size: 12px;
     margin-left: auto;
     position: relative;
     cursor: pointer;
     display: inline-block;
-}
-
-.hablemos:hover::after {
-    transform: scaleX(1);
+    transition: transform 0.3s ease;
 }
 /* Fin del header */
 
