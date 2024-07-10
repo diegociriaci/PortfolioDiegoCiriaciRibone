@@ -403,15 +403,24 @@ header p{
 }
 
 .habilidades{
-    margin-left: 20px;
     width: 100%; /* con esto modifico el tamaño de las cajas de skills*/
+    margin-top: 60px;
+
+    border: 1px solid blue;   
+}
+
+.habilidades h2{
+    margin-bottom: 10px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: bold;
+    font-size: 1.3em;
 }
 
 .imagenes-skills{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    width: 100%;
+    width: 113%;
     margin-top: 20px;
     gap: 10px;
 }
@@ -436,7 +445,7 @@ header p{
 }
 
 .imagenes-skills-caja img{
-    width: 100%;
+    width: 50%;
     height: auto;
     margin: 0;
 }
@@ -445,6 +454,7 @@ header p{
     margin: 0;
     font-size: 14px;
     color: #333;
+    font-weight: bold;
 }
 
 .experiencia-lista{
@@ -511,7 +521,13 @@ header p{
     font-size: 15px;
 }
 
-
+.experiencia-lista hr{
+    border: 0;
+    height: 2px;
+    background-color: #000;
+    margin: 20px 0;
+    width: 100%;
+}
 
 /* Fin de skills */
 
