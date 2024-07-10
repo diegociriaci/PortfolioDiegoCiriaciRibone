@@ -102,8 +102,6 @@ header.header {
     padding: 50px 10px;
     margin-left: -120px;
     margin-right: -120px;
-
-    border: 1px solid blue;
 }
 
 .mi-presentacion{
@@ -193,15 +191,13 @@ header.header {
 }
 
 .contenedor-puntuacion{
-    width: 400px;
-    height: 120px;
+    width: 300px;
+    height: 180px;
     position: relative;
     bottom: 180px;
-    margin-left: 182px;
-    display: flex;
-    flex-direction: column;
-    text-align: start;
-    align-items: flex-start;
+    padding: 10px 10px;
+    margin-left: -120px;
+    margin-right: -120px;
 }
 
 .imagen-clutch img{
@@ -217,7 +213,7 @@ header.header {
 }
 
 .opinion-texto{
-    margin-top: -18px;
+    margin-top: -1px;
 }
 
 .opinion-texto p{
