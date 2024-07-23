@@ -716,50 +716,24 @@ footer{
     color: white;
 }
 
-.contenedor-footer{
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.footer-header{
+    margin-bottom: 20px;
+    margin-left: -120px;
+    margin-top: 30px;
     height: auto;
-    padding: 50px 90px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.mensaje-header h1{
-    margin-left: 60px;
-    margin-bottom: 40px;
-    font-family: "Noto Sans", sans-serif;
-    font-weight: bold;
-    font-size: 2em;
-}
-
-.info-contacto{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-bottom: 10px;
-    margin-left: 60px;
-    width: 30%;
-}
-
-.contenedor-contacto{
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-    width: 50%;
-    height: auto;
+.titulo-footer{
+    padding-bottom: 30px;
 }
 
 .icono-mensaje-ubicacion{
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    margin-right: 15px;
-}
 
-.info-email-ubicacion{
-    text-align: start;
-    white-space: nowrap;
 }
 
 .info-contacto-titulo{
@@ -775,37 +749,14 @@ footer{
     margin-top: 0;
 }
 
-.info-mensaje-ubicacion{
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: start;
-    margin-left: 2px;
-}
-
-.saludo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 10px;
-    height: auto;
-    margin-left: auto;
-    flex: 1;
-    padding-top: 45px;
-    padding-bottom: 70px;
-}
-
-.saludo div{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+.saludo img{
+    width: 30px;
 }
 
 .saludo p{
-    display: flex;
-    align-items: center;
-    margin: 0;
-    justify-content: center;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .boton-saludo{
@@ -813,7 +764,6 @@ footer{
     height: 250px;
     border-radius: 50%;
     border: none;
-    margin-bottom: 20px;
     cursor: pointer;
     transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
 }
@@ -823,55 +773,48 @@ footer{
     height: 150px;
 }
 
-.boton-saludo:hover {
+.boton-saludo:hover{
     transform: scale(1.1);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
-.boton-saludo:hover img {
+.boton-saludo:hover img{
     transform: scale(1.2);
 }
 
-.saludo p{
-    font-family: "Noto Sans", sans-serif;
-    font-weight: bold;
-    font-size: 17px;
-}
-
 .pie-pagina{
-    display: flex;
-    justify-content: space-between;
-    align-items:center;
+    margin-left: -132px;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.pie-pagina p{
-    margin: 0 100px;
+.pie-pagina p, .email{
     font-family: "Noto Sans", sans-serif;
     font-weight: bold;
     font-size: 12px;
 }
 
 .pie-pagina img{
-    width: 12px;
+    width: 14px;
     height: auto;
 }
-/* Fin del footer */
 
-.separador-blanco-footer{
-    border-top: 2px solid #fff;
-    margin-left: 60px;
-    margin-right: -70px;
+.hr-tamanio{
+    border: 0;
+    height: 2px;
+    background-color: #fff;
+    width: 50%;
     margin-bottom: 15px;
 }
 
-.separador-blanco-final{
-    border-top: 2px solid #fff;
-    margin-left: 60px;
-    margin-right: 60px;
-    margin-bottom: 10px;
+.hr-final{
+    border: 0;
+    height: 2px;
+    background-color: #fff;
+    margin-left: -130px;
 }
+/* Fin del footer */
 
-img{
-    width: 40px;
-}
+
 
